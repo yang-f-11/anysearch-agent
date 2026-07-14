@@ -1,0 +1,43 @@
+# Secrets and local config
+.env
+.env.*
+!.env.example
+
+# Local agent/tool state
+.claude/
+.understand-anything/
+HANDOVER.md
+
+# Runtime artifacts
+logs/
+backups/
+*.log
+*.pid
+*.db
+*.db-shm
+*.db-wal
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
